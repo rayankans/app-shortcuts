@@ -8,6 +8,7 @@ dictionary ShortcutItem {
   sequence<ImageResource> icons;
 };
 
+// New definitions
 [Exposed=Window]
 partial interface Navigator {
   [SecureContext, SameObject] readonly attribute ShortcutsManager shortcuts;
