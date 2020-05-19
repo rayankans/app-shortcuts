@@ -6,7 +6,7 @@
 
 ## Participate
 
-TODO
+- [Issue Tracker](https://github.com/rayankans/shortcuts/issues)
 
 # Introduction
 
