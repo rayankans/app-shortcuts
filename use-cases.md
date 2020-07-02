@@ -15,3 +15,10 @@ Below is a collection of real-world uses cases provided by various organizations
     * recent conversations the user was involved in,
     * recent searches they conducted,
     * and recent documents they authored or accessed.
+
+## Additional use cases for consideration
+
+1. **Grouped shortcuts:** Applications want to bundle shortcuts into (potentially-collapsible) sub-groups. For example:
+    * recently-authored and recently shared files;
+    * payment methods; and
+    * user accounts/email addresses/conversations with a collected unread counter.
