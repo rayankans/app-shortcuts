@@ -22,6 +22,10 @@ This explainer aims to provide a way of dynamically creating app shortcuts, on t
 # Non-goals
 - Provide a mechanism to add/update shortcuts in the background.
 
+# Use cases
+
+Use cases for this API are [defined in a separate document](./use-cases.md).
+
 # API
 The API will re-use the [`ShortcutItem`](https://w3c.github.io/manifest/#dom-shortcutitem) dictionary defined in v1.
 
