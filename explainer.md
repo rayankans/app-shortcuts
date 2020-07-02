@@ -92,6 +92,7 @@ A few examples of that would be:
 - Navigation apps: quick access to frequently visited locations.
 - Productivity apps: opening recently added files.
 - Music/Video apps: quick access to recently downloaded content.
+- Social networks: provide access to recent searches, e.g. for a hashtag.
 
 # Detailed design discussion
 
@@ -106,10 +107,10 @@ No, this will add little to no value since:
 ## Should an option to disable shortcuts be provided?
 This is an Android feature which allows developers to disable shortcuts to handle pinned shortcuts. Given that this would not make sense within the context of other platforms, and there are available workarounds on Android, providing this capability is not necessary.
 
-## Should shortcuts be exposed in the background (i.e in ServiceWorkers)?
+## Should shortcuts be exposed in the background (i.e in service workers)?
 Shortcuts are tied to a web app manfiest. Exposing them in a service worker would not make sense, since it would be ambiguous which list of shortcuts will need to be returned.
 
-# Stakeholder Feedback / Opposition
+# Stakeholder feedback / opposition
 TODO
 
 # References & acknowledgements
