@@ -8,6 +8,7 @@ Below is a collection of real-world uses cases provided by various organizations
     * a shortcut to a particular payment method (e.g., gift card) which could be updated to include the current balance.
     * a shortcut to a user’s messaging inbox could be updated to reflect the current unread count.
 2. **Localization:** Apps that do localization on the client-side want to be able to define shortcuts in the app’s default language via the manifest and then update the label given to each dynamically via the API.
+3. **Behavior Change:** Applications may want one behavior from a shortcut when the PWA is not open and a different behavior when it is. For example, a messaging app might want to redirect you to the homepage after the user composes a new message via a shortcut when the app is closed, whereas they may want to close the new window if the app is already open (so as not to have two windows open to the app’s homepage). This could be accomplished by updating the URL of the shortcut to include a query string parameter while running. Note: This would require that the change to the manifest-defined shortcut would not persist beyond the app being closed, which has not been considered in other use cases.
 
 ## **Do not** require access to manifest-defined shortcuts
 
